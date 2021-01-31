@@ -2,3 +2,22 @@ server:
   protocol: http
   hostname: localhost
   port: 3000
+
+security:
+    refkey: secretinformation
+    passphrase: seconprivatekey
+    pwdkey: passwordsecret
+    verkey: accountversecret
+    accexp: 1s
+    refexp: 30d
+    pwdexp: 30m
+    verexp: 1w 
+
+email:
+    service: 'gmail'
+    user: 'aox.mailer@gmail.com'
+    pass: 'Iamdavid7D'
+
+endpoints:
+    verlink: http://localhost:3000/verification/:token
+    pwdlink: http://localhost:3000/password-reset/:token  

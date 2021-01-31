@@ -1,4 +1,4 @@
-const migrations = require('./../models/migrations')
+const migrations = require('./../migrations')
 
 exports.up = async (knex, Promise) => {
     for(key in migrations)
