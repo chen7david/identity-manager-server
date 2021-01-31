@@ -1,4 +1,4 @@
-const Koa = require('kao')
+const Koa = require('koa')
 const app = new Koa()
 const router = require('koa-router')()
 const { server } = require('config')
