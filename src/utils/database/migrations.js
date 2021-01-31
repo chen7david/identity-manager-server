@@ -1,6 +1,6 @@
 module.exports = {
 
-    user: (table) => {
+    users: (table) => {
         table.increments().primary()
         table.integer('user_id').unique().notNullable()
         table.string('profile_picture').unique()
