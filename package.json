@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/chen7david/identity-manager-server#readme",
   "dependencies": {
+    "cargo-io": "0.0.16",
     "config": "^3.3.3",
     "js-yaml": "^4.0.0",
     "knex": "^0.21.17",
