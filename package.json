@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/chen7david/identity-manager-server#readme",
   "dependencies": {
-    "cargo-io": "0.0.16",
+    "cargo-io": "0.0.17",
     "config": "^3.3.3",
     "joi": "^17.3.0",
     "js-yaml": "^4.0.0",
@@ -34,6 +34,7 @@
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^10.0.0",
     "objection": "^2.2.14",
+    "objection-mixin": "0.0.5",
     "sqlite3": "^5.0.1"
   }
 }

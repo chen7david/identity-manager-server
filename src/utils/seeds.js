@@ -1,4 +1,3 @@
-const { Role } = require('../models')
 
 const roles = [
     {
